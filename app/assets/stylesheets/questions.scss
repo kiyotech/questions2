@@ -17,15 +17,12 @@ div {
   padding: 0;
 }
 
-body,
-html {
+body {
   height: 100vh;
   width: 100vw;
   background-color: #f2f2f3;
-}
-
-body {
-  padding-top: 65px;
+  margin-top: 65px;
+  padding-top: 90px;
 }
 
 header.header {
@@ -83,13 +80,59 @@ header.header .user_nav {
   right: 0;
 }
 
-.form.contents {
+.content_post {
  width:700px;
- height:100px;
- text-align:center;
- display:inline-block;
- background:#ffffff;
- color:#3a3736;
- border-radius:5px;
- text-decoration:none;
+ margin: 0 auto;
+ display: flex;
+ margin-bottom: 25px;
+}
+
+.comments {
+  width: 70px;
+  height: 100px;
+  background-color: #1c3667;
+  border-radius: 5px 0 0 5px;
+  text-align: center;
+  padding: 20px 0 0 0;
+}
+
+.comments_count {
+font-size: 26px;
+color: #ffffff;
+line-height: 38px;
+}
+
+.comments_comments {
+font-size: 11px;
+color: #ffffff;
+line-height: 16px;
+}
+
+.question_form {
+  width: 630px;
+  height: 100px;
+  background-color: #ffffff;
+  padding: 10px 15px;
+  
+}
+.question_header{
+  display: flex;
+  margin-bottom: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.question_title {
+  font-size: 14px;
+  color: #000000;
+  width: 500px;
+}
+
+.question_name{
+font-size: 12px;
+}
+
+.question_text{
+font-size: 12px;
+
 }
