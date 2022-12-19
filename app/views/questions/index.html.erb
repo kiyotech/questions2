@@ -1,0 +1,10 @@
+<div class="contents row">
+  <% @questions.each do |question| %>
+    <div class="content_post">
+      <div>タイトル：<%= question.title %></div>
+      <div>内容：<%= question.text %></div>
+      <div>投稿者名：<%= question.name %></div>
+    </div>
+    <br>
+  <% end %>
+</div>

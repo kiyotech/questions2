@@ -1,0 +1,95 @@
+/******************************************** 
+ リセット用
+*********************************************/
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+ul,
+li,
+h1,
+h2,
+p,
+div {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  height: 100vh;
+  width: 100vw;
+  background-color: #f2f2f3;
+}
+
+body {
+  padding-top: 65px;
+}
+
+header.header {
+  padding: 0 20px;
+  background-color: #1c3667;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 5;
+  height: 65px;
+  
+}
+
+header.header div.header__bar.row {
+  position: relative;
+  
+}
+
+header.header div.header__bar.row h1.title {
+  font-size: 23px;
+  line-height: 65px;
+  font-weight: 100;
+  float: left;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 1.8px;
+}
+
+header.header div.header__bar.row h1.title a {
+  display: block;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+header.header div.header__bar.row div.submit {
+  float: right;
+  line-height:65px;
+}
+
+header.header div.header__bar.row div.submit a.post {
+ width:80px;
+ height:32px;
+ line-height:32px;
+ text-align:center;
+ display:inline-block;
+ background:#ffffff;
+ color:#3a3736;
+ border-radius:5px;
+ text-decoration:none;
+}
+
+header.header .user_nav {
+  position: relative;
+  height: 100px;
+  right: 0;
+}
+
+.form.contents {
+ width:700px;
+ height:100px;
+ text-align:center;
+ display:inline-block;
+ background:#ffffff;
+ color:#3a3736;
+ border-radius:5px;
+ text-decoration:none;
+}
